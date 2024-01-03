@@ -18,7 +18,9 @@ login
 # How to prevent accessing through remaining vty line 1-4
 conf t
 line vty 1 4
+
 login
+
 exit
 # Save your change to the starup-config file
 Copy run start command
